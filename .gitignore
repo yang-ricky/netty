@@ -12,6 +12,10 @@
 # Geany project file
 .geany
 
+heap*
+java*
+SNAP*
+
 # KDevelop project file and directory
 .kdev4/
 *.kdev4
