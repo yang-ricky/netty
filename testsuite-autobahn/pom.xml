@@ -65,14 +65,14 @@
           <failOnNonStrict>false</failOnNonStrict>
           <skip>${skipAutobahnTestsuite}</skip>
         </configuration>
-        <executions>
-          <execution>
-            <phase>test</phase>
-            <goals>
-              <goal>fuzzingclient</goal>
-            </goals>
-          </execution>
-        </executions>
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <phase>test</phase>-->
+<!--            <goals>-->
+<!--              <goal>fuzzingclient</goal>-->
+<!--            </goals>-->
+<!--          </execution>-->
+<!--        </executions>-->
       </plugin>
     </plugins>
   </build>
